@@ -10,6 +10,6 @@
 - First build on Github!
 - Added realistic loading screen
 - Added Discontinued folder 
-
+# 1//25/2022
 ## Known Bugs:
-- Nothing!
+- YMEgle Function can't access variables :/[FIXED]

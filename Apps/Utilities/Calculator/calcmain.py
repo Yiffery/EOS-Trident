@@ -9,7 +9,8 @@ print("Loading functions: ")
 print("  clear            ")
 def clear():
   system("clear")
-
+clear()
+print("Welcome to EOS Calculator")
 print("Press r at any time to go back to home")
 
 while True:

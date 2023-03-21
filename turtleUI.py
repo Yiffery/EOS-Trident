@@ -1,5 +1,7 @@
 import turtle as t
+import time
 
-t.bg("white")
-t.write("yddad yals")
-t.write("slay daddy") 
+t.screensize(canvwidth=4000000000000000, canvheight=500000000000, bg=None)
+
+while True:
+  time.sleep(5)

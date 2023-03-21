@@ -22,6 +22,8 @@ def shutdownoptions():
   if pwinop == "1":
     print("Shutting down...")
     time.sleep(2)
+    with open("test.txt", "w") as h:
+      h.write("False")
     clear()
       
   elif pwinop == "2":
@@ -29,6 +31,8 @@ def shutdownoptions():
     time.sleep(2)
     clear()
     exec(open("main.py").read())
+    with open("test.txt", "w") as h:
+      h.write("False")
   else:
     clear()
     print("That was not a option.")
