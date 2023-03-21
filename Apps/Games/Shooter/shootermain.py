@@ -16,7 +16,8 @@ print("  pcchoicelist      ")
 pcchoicelist = ["Shoot", "Block", "Reload"]
 print("  ammo              ")
 ammo = 1
-
+print("Type 'exit' to exit")
+time.sleep(2)
 clear()
 
 while True:
@@ -82,3 +83,5 @@ while True:
       usrask = input("Return to home? y/n ").lower()
       if usrask == "y":
         exec(open("main.py").read())
+  elif usrchoice == "exit":
+    exec(open("main.py").read())

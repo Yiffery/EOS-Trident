@@ -35,48 +35,49 @@ def main():
     usrinapp = 0
     clear()
     exec(open("turtleUI.py").read())
+    quit()
   #1.0 - Shooter
   if usrinapp == "1.0":
     #Reset usrinapp and clear the screen
     usrinapp = 0
     clear()
     exec(open("Apps/Games/Shooter/shootermain.py").read())
-    
+    quit()
   #1.1 - YMegle
   if usrinapp == "1.1":
     #Reset usrinapp and clear the screen
     usrinapp = 0
     clear()
     exec(open("Apps/Games/YMegle/ymegle.py").read())
-    
+    quit()
   #2.0 - Calculator
   if usrinapp == "2.0":
     #Reset usrinapp and clear the screen
     usrinapp = 0
     clear()
     exec(open("Apps/Utilities/Calculator/calcmain.py").read())
-  
+    quit()
   #2.1 - Dictionary
   if usrinapp == "2.1":
     #Reset usrinapp and clear the screen
     usrinapp = 0
     clear()
     exec(open("Apps/Utilities/Dictionary/dictmain.py").read())
-
+    quit()
   #2.2 - Power options (Shutdown/Restart)
   if usrinapp == "2.2":
     #Reset usrinapp and clear the screen
     usrinapp = 0
     clear()
     exec(open("Apps/Utilities/Power_options/pwoptmain.py").read())
-
+    quit()
   #4 - Credits
   if usrinapp == "4":
     #Reset usrinapp and clear the screen
     usrinapp = 0
     clear()
     exec(open("Apps/Utilities/Credits/creditmain.py").read())
-
+    quit()
   else:
     clear()
     print("---------------------")
@@ -84,7 +85,7 @@ def main():
     print("---------------------")
     time.sleep(1.5)
     clear()
-  
+    main()
 def loading():
   clear()
   if lines == ['False']:
